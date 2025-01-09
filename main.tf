@@ -44,11 +44,11 @@ resource "azurerm_storage_account" "storageaccount2" {
 }
 
 
-resource "azurerm_storage_account" "storageaccount1" {
+/*resource "azurerm_storage_account" "storageaccount1" {
   name                     = "stg${random_string.uniquestring.result}"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
-}
+}*/
 
